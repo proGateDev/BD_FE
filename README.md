@@ -1,12 +1,28 @@
-# React + Vite
+# 🧩 All-in-One Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **All-in-One Frontend** is a **Micro Frontend** architecture-based solution for the **Business Aggregator Platform**. It provides a modular, scalable, and adaptable experience, allowing businesses to access tailored modules within a unified user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Why Micro Frontends?
 
-## Expanding the ESLint configuration
+Micro Frontends break down a large monolithic frontend into **independent, modular applications**. This approach benefits the **Business Aggregator Platform** by offering:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Scalability**: Add or update features without impacting the entire system.
+- **Modular Flexibility**: Each business type can access specific, dynamically loaded modules.
+- **Independent Deployment**: Develop, test, and deploy each module separately.
+- **Improved Collaboration**: Teams can work on different micro frontends simultaneously.
+- **Custom User Experience**: Each business sees only the features relevant to them.
+
+---
+
+## 📊 How It Works
+
+1. **Business Registration**: Super Admin registers a business and assigns modules.
+2. **Dynamic Module Loading**: Only required modules are loaded for each business type.
+3. **User Interaction**: Users experience a unified dashboard while each business type operates with its unique logic.
+
+---
+
+## 🏗️ Project Structure
+
