@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 const Layout = ({ children }) => {
   return (
-    <div style={{padding: "10px", }} className="flex min-h-screen w-screen bg-[#ece6e6]"> 
+    <div style={{padding: "5px", }} className="flex min-h-screen w-screen bg-[#ece6e6]"> 
       {/* Sidebar */}
       <Sidebar />
 
